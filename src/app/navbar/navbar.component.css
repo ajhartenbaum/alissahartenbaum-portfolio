@@ -1,0 +1,40 @@
+.nav-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: #777777;
+	font-weight: bold;
+	font-size: 1.2em;
+	font-family: 'Segoe UI Light_','Open Sans Light',Verdana,Arial,Helvetica,sans-serif;
+}
+
+.nav-tabs li {
+	float: right;
+	height: 2em;
+	width: 7em;
+}
+
+.nav-tabs li span {
+    display: block;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+	line-height: 1.5em;
+}
+
+.nav-tabs li:hover {
+    background-color: #0586b6;
+	color: white;
+	border-bottom: darkblue solid 2px;
+}
+
+.nav-tabs li.selectedTab {
+ 	background-color: #0586b6;
+	color: white;
+	border-bottom: darkblue solid 2px;
+
+}
+.nav-tabs li.selectedTab span {
+	color: white;
+}
